@@ -32,11 +32,14 @@ var app = new Framework7({
       url: 'perfil.html',
       name: 'perfil'
     },
-    {
-      path: '/info/',
-      url: 'info.html',
-      name: 'info'
-    }
+      
+      {
+  path: '/info/',
+  url: 'info.html',
+  name: 'info'
+}
+
+
   ],
   panel: {
     swipe: true,
