@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOIRBAG - Vintage Coco</title>
+  <link href="css/framework7.bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #121212;">
+  <div id="app">
+    <div class="view view-main view-init">
+      <section data-name="info" class="page">
+
+        <!-- Top Navbar -->
+        <nav class="navbar">
+          <div class="navbar-bg"></div>
+          <div class="navbar-inner">
+            <div class="title">NOIRBAG</div>
+            <div class="right">
+              <a href="index.html" class="link">
+                <i class="material-icons">arrow_back</i>
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        
+        <section class="page-content">
+         <div class="swiper-container swiper-init" data-pagination="{&quot;el&quot;: &quot;.swiper-pagination&quot;}">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/bag2.jpg.jpeg" alt="Vista frontal" style="width:100%; border-radius: 16px;">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/bag2b.jpg" alt="Vista lateral" style="width:100%; border-radius: 16px;">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/bag2c.jpg" alt="Interior" style="width:100%; border-radius: 16px;">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Información del producto -->
+          <div class="block">
+            <h2 class="card-title">Vintage Coco</h2>
+            <p class="text-color-gray">Categoría: <strong class="color-pink">Luxury</strong></p>
+            <p class="price-tag">Precio: <strong>$350</strong></p>
+            <p class="product-description">
+              Inspirado en los diseños clásicos de Coco Chanel, este bolso combina elegancia con un toque retro parisino. Ideal para eventos, brunches y conquistas visuales. 🖤
+            </p>
+          <a href="#" class="button button-fill color-pink add-to-cart-btn">Agregar al carrito</a>
+          </div>
+        </section>
+
+      </section>
+    </div>
+  </div>
+
+  <script src="js/framework7.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  
+   <script src="js/app.js"></script>
+<script>
+  var app = new Framework7();
+  document.querySelector('.add-to-cart-btn').addEventListener('click', function () {
+    app.dialog.alert('¡Producto agregado al carrito!', 'NOIRBAG');
+  });
+</script>
+
+
+    
+</body>
+</html>
+

@@ -96,6 +96,15 @@ $$(document).on('click', '#btnCheckout', function (e) {
 		  closeTimeout: 3000,
 		});
 		notification.open();
+        
+        var app = new Framework7();
+
+
+document.querySelector('.add-to-cart-btn').addEventListener('click', function () {
+  app.dialog.alert('¡Producto agregado al carrito!', 'NOIRBAG');
+});
+
+
 		
 	});
 	
