@@ -1,0 +1,132 @@
+:root {
+  --f7-theme-color: #F94D8D;
+  --f7-navbar-bg-color: #1e1e1e;
+  --f7-navbar-link-color: #F94D8D;
+  --f7-navbar-text-color: #f5f5f5;
+  --f7-bars-bg-color: #1e1e1e;
+  --f7-block-margin-vertical: 20px;
+  --f7-card-footer-border-color: transparent;
+}
+
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.page-content, .panel, .card, .list {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.card-title, .item-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #F94D8D;
+}
+
+.item-subtitle, p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.block-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F94D8D;
+  margin: 20px;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.button-fill.color-pink {
+  background-color: #F94D8D;
+  color: white;
+  border-radius: 12px;
+}
+
+.media-list ul li {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.media-list .item-title {
+  color: #f5f5f5;
+}
+
+.media-list .item-subtitle {
+  color: #bbb;
+}
+
+.media-list .item-after {
+  color: #F94D8D;
+  font-weight: bold;
+}
+
+.item-link:hover {
+  background-color: #292929;
+}
+ 
+.panel {
+  background-color: #121212;
+  color: #0F0000;
+}
+
+
+.panel .list {
+  background-color: transparent;
+}
+
+.panel .list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.panel .list li {
+  background-color: transparent;
+}
+
+.panel .list li a {
+  color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 20px;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #1f1f1f;
+  transition: background 0.3s ease;
+}
+
+.panel .list li a:hover {
+  background-color: #1e1e1e;
+  color: #F94D8D;
+}
+
+.panel-left .list,
+.panel-left .list ul,
+.panel-left .list li,
+.panel-left .list li a {
+  background-color: #121212 !important;
+  color: #f5f5f5 !important;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #1f1f1f;
+  transition: background 0.3s ease;
+  display: block;
+}
+
+.panel-left .list li a:hover {
+  background-color: #1e1e1e !important;
+  color: #F94D8D !important;
+}
+.panel.panel-left {
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  overflow: hidden;
+}
+
